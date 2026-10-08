@@ -1,0 +1,28 @@
+{
+  "name": "accountflow",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "AccountFlow \u2014 double-entry accounting & financial reporting web application.",
+  "scripts": {
+    "build": "tsc && vite build",
+    "dev": "vite",
+    "preview": "vite preview",
+    "test": "node tests/accounting.test.cjs"
+  },
+  "dependencies": {
+    "jspdf": "^2.5.2",
+    "lucide-react": "^0.469.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.30.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "~5.6.3",
+    "vite": "^6.3.5"
+  }
+}
